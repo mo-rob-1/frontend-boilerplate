@@ -1,4 +1,4 @@
-# Frontend Boilerplate starter using Parcel and Sass
+# Front-end Boilerplate starter using Parcel and Sass
 
 ## How to use this repo
 1. Clone the repo
