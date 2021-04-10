@@ -118,7 +118,8 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"js/popup.js":[function(require,module,exports) {
-alert("I am an alert box!");
+// alert("I am an alert box!");
+console.log("I am an alert box!");
 },{}],"js/consolelog.js":[function(require,module,exports) {
 console.log("Hello world!");
 },{}],"js/script.js":[function(require,module,exports) {
@@ -155,7 +156,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52591" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60254" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

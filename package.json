@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "parcel src/index.html src/about.html",
+    "build": "parcel build src/index.html src/about.html",
+    "clean": "rm -rf .cache dist"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,6 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "sass": "^1.32.8"
-  }
+  },
+  "dependencies": {}
 }
