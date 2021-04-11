@@ -1,10 +1,5 @@
-$color: rgb(125, 219, 191);
-
-body {
-  background-color: $color;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.image-car {
-  width: 100%;
-}
+@use 'abstracts';
+@use 'vendor';
+@use 'base';
+@use 'layouts';
+@use 'components';
