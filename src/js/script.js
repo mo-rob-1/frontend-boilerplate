@@ -1,4 +1,2 @@
-import './popup';
-import './consolelog';
-
-
+import "./PopUp";
+import "./ConsoleLog";
